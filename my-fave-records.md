@@ -4,3 +4,4 @@
 * Pink Floyd - The Wall
 * Beethoven
 * Sergei Rachmaninoff 
+* Simon Garfunkel
