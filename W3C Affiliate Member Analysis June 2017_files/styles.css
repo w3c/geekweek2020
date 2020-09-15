@@ -1,0 +1,61 @@
+     #content .img { text-align: center; float: right; margin-left: 2em; clear: right; max-width: 100%;}
+     #content .img p { margin-bottom: 1em; font-style: italic;}
+     #content .img.border img {padding: .2em; border: thin black solid;}
+    .sidebar { float: right; clear: right; margin-left: 2em; margin-top: .5em; text-align: center;}
+    #content .quote { width: 250px; text-align: left; font-size: 1.1em; font-style: italic;}
+    #content .quote:before { content: url('quotation_marks.gif'); }
+#content blockquote { font-size: .9em; font-style: italic;}
+    .status { background: #eee; border: thin grey solid; padding: 1em;}
+    .activity { width: 28%; float: left; margin-top: 1em; margin-bottom: 1em;}
+    @media print {
+	.activity { font-size: .75em; width: 24%; float: left; margin-top: 1em; margin-bottom: 1em;}
+	#toc_list { display: block !important; }
+	}
+    #content .activity li { margin-left: 0; list-style: none; margin-bottom: .25em;}
+
+.contents ul, .contents li {
+    list-style: none !important;
+}
+.contents li {
+/*    line-height: 1.1;*/
+}
+
+#toc {
+    width: 50%;
+}
+#toc ul {
+    display: none;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+#toc ul.expanded {
+    display: block;
+    margin-bottom: 2em;
+}
+#toc ul.expanded ul {
+    display: block;
+    padding-left: 20px;
+}
+#toc li a {
+    display: block;
+    padding: 5px 20px 0 20px;
+    border-top: 1px solid #aaa;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #333;
+}
+#toc ul.expanded ul li a {
+    border-top: none;
+    font-size: 1em;
+    text-decoration: none;
+    color: #333;
+}
+
+.caption { font-style: italic; display: block; }
+.attrib { text-align: right; }
+
+h2, h3, h4 { margin-top: 2em; }
+h2, h3, h4 { clear: right; }
+
