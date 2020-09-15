@@ -1,0 +1,111 @@
+body { 
+	font:normal 100% "Gill Sans", sans-serif;
+	}
+	
+#container { 
+	max-width:952px;
+	margin:0px auto;
+	background:#fff;
+	}
+	
+#contain-content {
+	padding:35px;
+	}
+
+#content {
+	display:block;
+	}
+	
+#content table {
+	width:100%;
+	border:1px solid #000;
+	padding:10px;
+	}
+	
+
+h1.home {
+	margin-bottom:24px;
+}
+
+#content p, #content dt, #content dd {
+/*	font-size:.8125em; */ /* 13px / 16px */
+/*        font-size: 90%;*/
+	margin-bottom:1em;
+	}
+
+#content li li {
+        font-size: 100%;
+	margin-bottom:0;
+}
+	
+#content li { 
+	list-style-type:disc;
+	}
+
+#content ol li { 
+	list-style-type:decimal;
+	}
+	
+#content table {
+	font-size:.8125em; /* 13px / 16px */
+	background:#f1f1f1;
+	margin:2em 0;
+	}
+
+#content table td {
+	border:1px solid #000;
+	padding:1em;
+	}
+	
+#content caption {
+	border:1px solid #000;
+	border-bottom:none;
+	background:#e5e6e7;
+	padding:.5em;
+	font: 1.4em 'LeagueGothicRegular', sans-serif; 
+	text-transform:uppercase;
+	}
+	
+#content table strong.upped {
+	font: 1.4em 'LeagueGothicRegular', sans-serif; 
+	text-transform:uppercase;
+	}
+	
+#sidebar {
+	width:300px;
+	float:right;
+	display:block;
+	}
+
+dl { margin-top: 1em; }
+	
+	
+/* Relates to sidebar width */
+#content #schedule-table {
+    width: 65%;
+}
+
+blockquote {
+ margin: 1em;
+}
+
+#content .image {
+	float:right;
+	display:block;
+	margin:0 20px 30px 80px;
+	}
+	
+hr {
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Styles for smaller screens */
+@media screen and (max-width: 767px) {
+    body {
+        padding: 2em 1em 2em;
+    }
+}
